@@ -13,7 +13,7 @@ body{
 /*  HEADER  */
 header{
     background-color: #fff;
-    padding: 30px;
+    padding: 15px;
 }
 
 h1{
@@ -25,4 +25,125 @@ header img, header h1{
     vertical-align: middle;
     padding-left: 10px;
     font-size: 40px;
+}
+
+/* / HEADER  */
+
+main{
+    background-color: #f5f8fd;
+}
+
+.container{
+    margin: 30px auto;
+    width: 70%;
+}
+
+.main-top{
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+
+.button-main-box{
+    border-bottom: 0px solid #f5f8fd;
+    padding: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.main-bottom{
+    padding: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li h3{
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+
+.main-bottom ul li h3::before{
+    content: "\25BE";
+}
+
+.main-bottom ul li{
+    line-height: 30px;
+    padding-top: 5px;
+}
+
+.main-inner-list li::before{
+    border-radius: 50%;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.main-inner-list li.checked::before{
+    content: "\2713";
+    color: green;
+    border: 1px solid green;
+    font-size: 13px;
+}
+
+.main-inner-list li.cross::before{
+    content: "\292B";
+    color: red;
+    border: 1px solid red;
+    font-size: 13px;
+}
+
+.main-bottom ul li::after{
+    color: white;
+    border-radius: 20px;
+    padding: 7px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.main-bottom ul li.editorial::after{
+    content: "Editorial";
+    background-color: #5aadf1;
+}
+
+.main-bottom ul li.q1-goals::after{
+    content: "Q1 Goals";
+    background-color: #9575e8;
+}
+.main-bottom ul li.Recruiting::after{
+    content: "Recruiting";
+    background-color: #68c2aa;
+}
+
+.main-bottom ul li.Mobile::after{
+    content: "Mobile";
+    background-color: #f09f32;
+}
+.main-bottom ul li.Website::after{
+    content: "Website";
+    background-color: #da669d;
+}
+.main-bottom ul li.Sales::after{
+    content: "Sales";
+    background-color: #adc72a;
+}
+
+
+button{
+    border-radius: 4px;
+    padding: 5px;
+    border: 0;
+    text-transform: capitalize;
+}
+
+.bg-blue{
+    background-color: #5aadf1;
+}
+
+.text-white{
+    color: white;
 }
